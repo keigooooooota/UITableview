@@ -14,6 +14,7 @@ class SubViewController: UIViewController{
     
     @IBOutlet var imageView: UIImageView!
     var selectedImg: UIImage!
+    var name = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +27,12 @@ class SubViewController: UIViewController{
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+    }
+    
+    
+    func test(){
+    self.name = "oota"
+    
     }
     
 }
